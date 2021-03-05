@@ -9,15 +9,19 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-    let array = ["The sum of " + a + " and " + b + "is " + (a + b) + "."]
-        //console.log(array)
+
+    let array = [(a + b), "The sum of " + a + " and " + b + " is " + (a + b) + "."]
+        //console.log(array[0])
+        // console.log(array[1])
+
     return array;
 }
 
 // Here is the test for sum(); uncomment it to run it
 //sum(4, 7);
-//console.log(" the calling " + sum(4, 7))
-// testSum(4, 7);
+testSum(4, 7);
+
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -31,14 +35,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-    let array = ["The product of " + a + " and " + b + " is " + (a * b) + "."]
-    console.log(array)
-    return array
+
 }
 
 // Here is the test for multiply(); uncomment it to run it
-multiply(5, 9)
-    // testMultiply(5,9);
+//multiply(5, 9)
+// testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -59,7 +61,9 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+//alert(sumAndMultiply(4, 7, 5))
+//sumAndMultiply(4, 7, 5)
+//testSumAndMultiply(4, 7, 5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
